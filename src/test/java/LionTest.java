@@ -1,6 +1,5 @@
 import com.example.Feline;
 import com.example.Lion;
-import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -11,7 +10,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.catchThrowable;
 
 @RunWith(MockitoJUnitRunner.class)
-public class LionTest extends TestCase {
+public class LionTest {
     private static final String MALE = "Самец";
     private static final String UNSUPPORTED_SEX = "unsupported sex";
     private static final String TEXT_EXCEPTION = "Используйте допустимые значения пола животного - самей или самка";
